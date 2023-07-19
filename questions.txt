@@ -1,0 +1,31 @@
+Max Santos
+July 13, 2023
+Programming Languages
+
+QUESTIONS:
+
+#1:
+Does the initialization fo the main function work similarly to C and C++ where the main function is required when running a program? I am particularly confused on this because in this assignment, the main function is essentially a method.
+
+#2:
+Why does the Medicine class (within the Medicine.java file) use minimum and maximum temperature methods instead of just declaring instance variables for them? Why can't the isTemperatureRangeAcceptable function just use instance variables?
+
+#3:
+In the main function in the SupplyChain.java file, why can I call the run method of HospitalRunenr without instantiating it as an object first? This is something new to me with Java that I don't quite understand.
+
+#4:
+Why in the Pharmacy class do we define the isntance of Thrombolytic to a variable of the medicine type? Would defining it as Thrombolytic achieve the same thing? Is there any limitation to defining this as the Medicine type?
+
+#5:
+In the 'Mirror, Mirror on the Wall!' section, it is evident that casting doesn't work because of the dynamic nature of 'Object'. However, is casting not a viable solution if we manually typed out and casted the object to each type we need for each use case?
+
+#6:
+Is there any performance impact when using reflection in comparison to using casting?
+
+#7:
+What is the performance impact of calling a method using an interface versus using a traditional model of object orientation.
+
+#8:
+In the 'Who's the Fairest of Them All' section, it appears that interfaces can only be used because the classes that the Transporter classes uses has a limited number of methods. When should I use interfaces versus casting in Java when we have a larger number of methods?
+
+
